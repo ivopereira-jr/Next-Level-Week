@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-home" %}<!--para criar uma variavel-->
+
+{% block title %}
+      <title>Ecoleta</title>
+{% endblock title %}
+
+{% block styles %}<!--akie e o extend-->
+   <link rel="stylesheet" href="css/home.css">
+   <link rel="stylesheet" href="css/modal.css">
+{% endblock styles %}
+
+{% block content %}
+   <div class="container">
+      <header>
+         <img src="./images/icones/logo.svg" alt="logomarca"><!--alt serve como uma descriçao da img caso ao ache w para acessibilidade para leitor de telas para pessoas cegas-->
+         <a href="/create-point"><span></span>Cadastre um ponto de coleta</a>
+      </header>
+
+      <main>
+      <!--<h1>{{ title }}</h1> esse title faiz referencia com o title que esta no server.js  e serve para tormar a pagina dinamica-->
+         <h1>Seu marketplace de coleta de residuos</h1>
+         <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
+         <a href="#"><span></span><strong>Pesquisar pontos de coleta</stron></a>
+      </main><!--main serve para colocar as informaçoes principais do documento ou site ou a parte que vai ter mais destaque-->   
+   </div><!--container-->
+{% endblock content %} 
+
+{% block modal %}
+   {% include "partials/modal.html" %}<!--o iclude serve para incluir partes de codigo no arquivo para incluir a estrututa exemplo html body head tem que usar o extend o extend e usado no layout.html ver dpois ele e usado junto ao nunjuhs no back end -->
+{% endblock modal %}
+
+{% block scrypts %}
+   <script src="./js/index.js"></script>
+{% endblock scrypts %}
+   
+

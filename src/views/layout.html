@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   {% block title %}
+      <title>Ecoleta</title>
+   {% endblock title %}
+   <link rel="shortcut icon" type="image-x/png" href="./images/icones/pngwing.com.ico">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet"><!--akie uma maneira de colocar mais de uma fonte em um unico link-->
+   <link rel="stylesheet" href="css/style.css">
+   {% block styles %}
+   {% endblock styles %}
+   <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+   <div id="{{ pageId }}"><!--pega o id da variavel que esta no index.html pelo nunjucks -->
+      {% block content %}
+      {% endblock content %}  
+   </div><!--page-home-->
+   <!--aki e o extend com nunjuks-->
+
+   {% block modal %}
+   {% endblock modal %}
+
+   {% block scrypts %}
+   {% endblock scrypts %}
+</body>
+</html>
