@@ -1,7 +1,7 @@
 <h3 align="center">
 <b>Semana Next level week <p><a href="https://rocketseat.com.br"><img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1"></a></p></b>
 
-</h3></b></br></br>
+</h3></b></br>
 
 <img alt="Logo" title="#logo" width="950" src="public/images/wallpapers/nlw.png">      
    
