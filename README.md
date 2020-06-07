@@ -21,10 +21,10 @@ O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito<
 <img alt="Logo" title="#demo" width="950" src="public/images/wallpapers/fff.gif">
 </br></br>
 
-<img alt="Logo" title="#demos" width="950" src="public/images/wallpapers/create-point.jpg">
+<img alt="Logo" title="#demos" width="950" src="public/images/wallpapers/create-point.png">
 </br></br>
 
-<img alt="Logo" title="#demos" width="950" src="public/images/wallpapers/cadastro.jpg">
+<img alt="Logo" title="#demos" width="950" src="public/images/wallpapers/cadastro.png">
 </br></br>
 
 <img alt="Logo" title="#demos" width="950" src="public/images/wallpapers/capturar.png">
