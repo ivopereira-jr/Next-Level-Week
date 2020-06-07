@@ -27,7 +27,7 @@ O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito<
 <img alt="Logo" title="#demos" width="950" src="public/images/wallpapers/cadastro.png">
 </br></br>
 
-<img alt="Logo" title="#demos" width="950" src="public/images/wallpapers/Capturar.png">
+<img alt="Logo" title="#demos" width="950" src="public/images/wallpapers/Capturar.PNG">
 </br></br>
 
 ------------------
