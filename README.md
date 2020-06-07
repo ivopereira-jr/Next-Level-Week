@@ -33,7 +33,7 @@ O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito<
 ------------------
 </br>
  
-📌  <strong>Tecnologias utilizadas:</strong>
+🚀  <strong>Tecnologias utilizadas:</strong>
 
 - Css
 - Html
@@ -43,7 +43,7 @@ O projeto foi ministrado por <a href="https://github.com/maykbrito">Maiky Brito<
 
 💬 Fale comigo
 ------------------
-[*Entre em contato comigo*](https://www.linkedin.com/in/ivo-baptista-3712144/)
+[*Entre em contato comigo*](https://www.linkedin.com/in/ivo-pereira-3997911a8)
 
 Obrigado por chegar até aqui!
 
