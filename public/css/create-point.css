@@ -1,0 +1,181 @@
+
+
+#page-create-point {
+   width: 90%;
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+#page-create-point header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 40px;
+}
+
+#page-create-point header a {
+   color: var(--title-color);
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+}
+
+#page-create-point header a span{
+   width: 20px;
+   height: 24px;
+   margin-right: 15px;
+   display: flex;
+   background-image: url('../images/icones/arrow-left.svg');
+}/*usando o display flex no span tem que seta a largura e altura para aparecer o elemento*/
+
+
+form {
+   width: 100%;
+   max-width: 1200px;
+   margin: 80px auto;
+   padding: 50px 2%;
+   border-radius: 8px;
+   background: white;
+}
+
+form h1 {
+   font-size: 36px;
+   text-align: center;
+}
+
+form .form-wraper {
+   display: flex;
+   margin-top: 60px;
+}
+
+form fieldset {
+   width: 100%;
+   border: 0;
+   padding: 0 2%;
+}
+
+form legend {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 40px;
+}
+
+form legend h2 {
+   font-size: 24px;
+}
+
+form legend span{
+   font-size: 14px;
+   color: var(--title-color);
+}
+
+form .field {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 23px;
+}
+
+form .field-group {
+   display: flex;
+   
+}
+
+form label {
+   font-size: 14px;
+   margin-bottom: 8px;
+}
+
+form input,
+form select {
+   border: 0;
+   outline: none;
+   padding: 16px 24px;
+   font-size: 16px;
+   border-radius: 8px;
+   border: 2px solid #f0f0f5;
+   background: #f0f0f5;
+   transition: 400ms;
+}
+
+form input:focus {
+   border: 2px solid #34cb79;
+   box-shadow: 0px 2px 16px 2px #ccc;
+}
+
+
+form select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+form .field-group .field + .field {
+   margin-left: 24px;
+}
+
+.clear {
+   clear: both;
+}
+
+form button {
+   width: 260px;
+   height: 56px;
+   border: 0;
+   outline: none;
+   border-radius: 8px;
+   color: white;
+   background-color: var(--primary-color);
+   font-size: 16px;
+   font-weight: bold;
+   margin-top: 30px;
+   cursor: pointer;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   transition: background-color 400ms;
+}
+
+form button:hover {
+   background-color: #2fb86e;
+}
+
+.items-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 16px;/*gap para espamentos no grid*/
+}/*para fazer uma grid com os elementos nessa confi vai ser feito tres colunas e o display grip calcula sozinho o espaço para os elementos quando usamos o fr*/
+
+.items-grid li {
+   height: 180px;
+   list-style: none;
+   border: 2px solid #f5f5f5;
+   border-radius: 8px;
+   background-color: #f5f5f5;
+   padding: 32px 24px 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+   cursor: pointer;
+}
+
+.items-grid li span {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   margin-top: 12px;
+   color: var(--title-color);
+}/*o flex 1 serve para fazer o elemento ter um tamanho que preencha o espaço que tiver sobrando caso tenha outro ou outros elementos e o elemento pai tem que estar com o display flex para isso dar certo*/
+
+.items-grid li.selected {
+   border: 2px solid #34cb79;
+   background: #e1faec;
+}
+
+.items-grid li img,
+.items-grid li span {
+   pointer-events: none;
+}/*akie serve para nao funcionar os eventos nesses elementos pois o li recebeu o evento de click e como eles sao filhos do li eles tabem receberao o evento de click ai cm essa config retira isso*/
