@@ -7,11 +7,12 @@
     "start": "nodemon src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "ivopereira-jr <ivopereira.jr12@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.1",
     "sqlite3": "^4.2.0"
-  }
+  },
+  "repository": "https://github.com/ivopereira-jr/Next-Level-Week.git"
 }
