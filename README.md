@@ -83,7 +83,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### <a name='Pr-requisitos'></a> Pré-requisitos
 
-Antes de começar você vai precisar ter o <a href="https://nodejs.org/en/">Nodejs</a> ou instalar ele caso não tenha
+Antes de começar você vai precisar ter o <a href="https://nodejs.org/en/">Nodejs</a> ou instalar ele caso não tenha e também o <a href="https://yarnpkg.com/">Yarn</a>
 
 </br>
 
