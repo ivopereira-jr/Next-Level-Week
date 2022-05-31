@@ -12,7 +12,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.1",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.0.3"
   },
   "repository": "https://github.com/ivopereira-jr/Next-Level-Week.git"
 }
